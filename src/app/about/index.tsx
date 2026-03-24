@@ -3,7 +3,7 @@ import React from 'react'
 const index = () => {
   return (
     <SafeAreaView>
-    <View>
+    <View className='text-red-300'>
       <Text>AboutScreen</Text>
     </View>
     </SafeAreaView>

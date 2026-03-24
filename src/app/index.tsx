@@ -5,7 +5,7 @@ import { Image } from "expo-image";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen. Welcome to this App</Text>
+      <Text className="text-red-700 bg-stone-700">Edit src/app/index.tsx to edit this screen. Welcome to this App</Text>
       <Link href={"/about"}>This is the About Screen</Link>
       <Link href={"/contact"}>This is the Contact Screen</Link>
       <Image source={require("@/assets/images/icon.png")}
